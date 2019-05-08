@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    resource:
+      jwk:
+        key-set-uri: http://localhost:5588/.well-known/openid-configuration/jwks
+      token-type: Bearer
+      token-info-uri: http://localhost:5588/connect/token
